@@ -15,11 +15,6 @@
       ¿Estás seguro de que deseas cerrar sesión?
     </h1>
 
-    <!-- Mostrar correo del administrador -->
-    <p v-if="adminEmail" class="text-lg mb-4">
-      Sección iniciada con: <span class="font-semibold">{{ adminEmail }}</span>
-    </p>
-
     <!-- Botón de cerrar sesión -->
     <button 
       @click="logout" 
